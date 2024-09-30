@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla';
+    box-sizing: border-box;
+}
+.inputStyle{
+    width: 100%;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: left;
+    padding: 20px 0px 20px 30px;
+    outline: none;
+    margin-top: 20px;
+}
+
+body {
+    background-color: #A7D7C5;
+    max-width: 1600px;
+}
+
+.mainForm {
+    max-width: 700px;
+    max-height: 950px;
+    margin: 0 auto;
+    margin-top: 131px;
+    margin-bottom: 400px;
+    border-radius: 50px;
+    background-color: #F6FBF9;
+    padding: 40px 60px 20px 60px;
+
+}
+
+.headerForm > h1 {
+    font-size: 55.23px;
+    font-weight: 700;
+    text-align: center;
+    color: #212B27;
+}
+.headerDescription > h2 {
+    font-size: 23.01px;
+    font-weight: 400;
+    line-height: 29.91px;
+    text-align: center;
+    max-width: 470px;
+    margin: 20px auto;
+    color: #32403B;
+}
+
+.mail > input {
+   margin-top: 0px;
+}
+
+input:focus {
+    border-color: gray;
+}
+
+.persName {
+    display: flex;
+}
+.persName >input:first-child {
+    margin-right: 16px;
+}
+
+.phoneSection p {
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #32403B;
+}
+
+.numberInputSection{
+    display: flex;
+}
+.numberInputSection > input:first-child{
+    max-width: 120px;
+    margin-right: 19px;
+}
+
+.accountTypeSection > p{
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #32403B;
+}
+.typeAccount {
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    font-weight: 400;
+    color: #32403B;
+    margin-top: 33px;
+}
+.typeAccount > input:checked {
+width: 50px;
+}
+
+.createButton{
+    text-align: center;
+    margin-top: 65px;
+}
+
+.createButton > button{
+    padding: 25px 73px 33px;
+    background-color: #84C7AE;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 43.87px;
+    text-align: center;         
+    color: #FFFFFF;
+    
+}
+
+.footerForm {
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    color: #32403B;
+}
+.footerLink {
+    color: #32403B;
+    padding-bottom: 0px;
+}
+/* .designCube {
+    width: 750px;
+    height: 750px;
+    background-color: #C1E3D6;
+    border-radius: 150px;
+    transform: rotate(45deg);
+    position: relative;
+} */
+
+/* .firstCube {
+top: ;
+}
+.secondCube {
+
+} */
+
+
